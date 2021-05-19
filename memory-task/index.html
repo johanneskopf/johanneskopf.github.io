@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Game Prototype</title>
+    <title>Unity WebGL Player | Memory Task</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -22,20 +22,20 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Game Prototype</div>
+        <div id="unity-build-title">Memory Task</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/1_Memory-Task.loader.js";
+      var loaderUrl = buildUrl + "/memory-task.loader.js";
       var config = {
-        dataUrl: buildUrl + "/1_Memory-Task.data.unityweb",
-        frameworkUrl: buildUrl + "/1_Memory-Task.framework.js.unityweb",
-        codeUrl: buildUrl + "/1_Memory-Task.wasm.unityweb",
+        dataUrl: buildUrl + "/memory-task.data.unityweb",
+        frameworkUrl: buildUrl + "/memory-task.framework.js.unityweb",
+        codeUrl: buildUrl + "/memory-task.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "JohannesKopf",
-        productName: "Game Prototype",
-        productVersion: "0.1",
+        productName: "Memory Task",
+        productVersion: "1.0",
       };
 
       var container = document.querySelector("#unity-container");
